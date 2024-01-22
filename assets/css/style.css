@@ -54,12 +54,12 @@ div#call_to_action{
 }
 
 aside.model{
-    width: 25%
+    width: 25%;
+    position: relative;
 }
 
-.model_picture top-left{
-    background-image: url(../img/1.webp);
-    height: 400px%;
+img.model{
+    width: 100%;
 }
 
 div.brand{
@@ -69,4 +69,13 @@ div.brand{
 span.newprice{
     color: red;
     font-size: 0.75rem;
+}
+
+img.to_hover{
+    position:absolute
+}
+
+aside.model:hover img.to_hide{
+    position: relative;
+    z-index: 100
 }
