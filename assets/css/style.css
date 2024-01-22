@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* #region Header */
+
+
+#site_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    background-color: #ff6900FF;
+    padding: 1rem 0rem 1rem 0rem;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.target ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+#logo img{
+    width: 10rem;
+}
+
+#call_to_action img{
+    width: 2rem;
+    padding: 0.25rem;   
+}
+
+div#call_to_action{
+    color: #fff;
+}
+
+/* #endregion Header */
+
+
+/* #region Main */
+#site_main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 80%;
+    padding: 3rem 0;
+}
+
+aside.model{
+    width: 25%
+}
+
+.model_picture top-left{
+    background-image: url(../img/1.webp);
+    height: 400px%;
+}
+
+div.brand{
+    color: #808080
+}
+
+span.newprice{
+    color: red;
+    font-size: 0.75rem;
+}
