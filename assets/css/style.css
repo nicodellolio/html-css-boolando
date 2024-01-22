@@ -4,8 +4,6 @@
 }
 
 /* #region Header */
-
-
 #site_header{
     display: flex;
     justify-content: space-around;
@@ -49,7 +47,7 @@ div#call_to_action{
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
-    width: 80%;
+    width: 95%;
     padding: 3rem 0;
 }
 
@@ -77,5 +75,70 @@ img.to_hover{
 
 aside.model:hover img.to_hide{
     position: relative;
-    z-index: 100
+    z-index: 2
+}
+
+.over_info{
+    position: absolute;
+    z-index: 10;
+}
+
+div.like, span.discount, span.eco{
+    position: absolute;
+    z-index:10;
+}
+
+div.like{
+    top:0.5rem;
+    right:0;
+    font-size: 2rem;
+    background-color: #fff;
+    padding: 0.5rem 1rem 0.25rem 1rem;
+}
+
+span.discount{
+    bottom: 6rem;
+    left:0;
+    color: white;
+    background-color: red;
+    padding: 0.5rem;
+}
+
+span.eco{
+    left: 4rem;
+    bottom: 6rem;
+    color: #fff;
+    background-color: green;
+    padding: 0.5rem;
+}
+
+.btm-right span.eco{
+    left: 0;
+    bottom: 6rem;
+    color: #fff;
+    background-color: green;
+    padding: 0.5rem;
+}
+/* #endregion Main */
+
+/* #region_footer */
+
+#site_footer{
+    display: flex;
+    justify-content: ;
+    background-color: black;
+    color: #fff;
+}
+
+div.info_footer{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+aside.info_footer{
+    display: flex;
+    gap: 0.75rem;
 }
